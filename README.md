@@ -13,7 +13,7 @@ Temp Mail Generator is a simple and secure email fake generator developed by Saj
 
 To use the Temp Mail Generator, follow these simple steps:
 
-1. Visit [Temp Mail Generator](#) in your web browser.
+1. Visit [Temp Mail Generator](https://sajjadnazaridev.github.io/TempMail-Email-Fake-Generator/) in your web browser.
 2. A temporary email address will be automatically generated for you.
 3. Copy the email address to use for your needs.
 4. Forget about spam and keep your real mailbox clean and secure.
