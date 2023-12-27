@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Temp Mail</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style/mainstyle.css" />
+    <link rel="shortcut icon" href="images/fav-logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="def-show-element section-captcha">
+      <div class="container-captcha">
+        <p class="title-captcha">Enter Captcha</p>
+        <div class="preview"></div>
+        <div class="captcha-form">
+          <input
+            type="text"
+            id="captcha-form"
+            placeholder="Enter captcha text"
+          />
+          <button class="captcha-refresh">
+            <i class="ri-restart-line"></i>
+          </button>
+        </div>
+        <button class="submit-captcha">Check</button>
+        <p class="def-hide-element alert-error">Invalid captcha</p>
+      </div>
+    </div>
+    <div class="section-header">
+      <div class="top-bar">
+        <p class="clockAndDate"></p>
+      </div>
+      <div class="header">
+        <div class="header-download-app">
+          <button class="header-download-app-appstore">
+            <img src="images/itunes_header.svg" alt="app store logo" />App Store
+          </button>
+          <button class="header-download-app-googleplay">
+            <img
+              src="images/Google-Play-icon-logo.png"
+              alt="google play logo"
+            />Google Play
+          </button>
+        </div>
+
+        <div class="header-logo" data-aos="fade-down">
+          <img src="images/brand-logo.png" alt="logo" />
+        </div>
+
+        <div class="header-other-services">
+          <div class="header-other-services-temp">
+            <button>Temp <i class="ri-chat-smile-fill"></i> Number</button>
+          </div>
+          <div class="header-other-services-premium">
+            <button>Premium</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-email">
+        <div class="content-email-details" data-aos="fade-right">
+          <h3>Your Temporary Email Address</h3>
+          <div class="content-email-details-email-data">
+            <div class="content-email-details-email-data-email-converted">
+              <input
+                type="text"
+                id="input-email-fake"
+                readonly
+                value="Loading..."
+              />
+              <button
+                class="content-email-details-email-data-email-converted-button-qrcode"
+              >
+                <i class="ri-qr-code-line"></i>
+              </button>
+            </div>
+            <button class="button-copy-email-fake">
+              <i class="ri-file-copy-fill"></i>
+            </button>
+          </div>
+        </div>
+        <div class="content-email-text-danger" data-aos="fade-up">
+          <p>
+            Forget about spam, advertising mailings, hacking and attacking
+            robots. Keep your real mailbox clean and secure. Temp Mail provides
+            temporary, secure, anonymous, free, disposable email address.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-btns-email-data">
+      <div class="section-btns-email-data-container">
+        <button class="btn-action">
+          <i class="ri-clipboard-fill"></i>
+          Copy
+        </button>
+        <button class="btn-action">
+          <i class="ri-refresh-fill"></i>
+          Refresh
+        </button>
+        <button class="btn-action">
+          <i class="ri-exchange-fill"></i>
+          Change
+        </button>
+        <button class="btn-action">
+          <i class="ri-close-circle-fill"></i>
+          Delete
+        </button>
+      </div>
+    </div>
+    <div class="section-content-data-email-inbox">
+      <div class="section-content-data-header">
+        <p class="text-header">SENDER</p>
+        <p class="text-header">SUBJECT</p>
+        <p class="text-header">VIEW</p>
+      </div>
+      <div class="section-content-data-main">
+        <lord-icon
+          src="https://cdn.lordicon.com/lyrrgrsl.json"
+          trigger="loop"
+          colors="primary:#252525"
+          delay="1500"
+          style="width: 150px; height: 150px; opacity: 0.7"
+        >
+        </lord-icon>
+        <p class="text-title-inbox">Your inbox is empty</p>
+        <p class="text-desc-inbox">Waiting for incoming emails</p>
+      </div>
+    </div>
+
+    <div class="section-text-about-temp-mail">
+      <div class="text-title">What is Disposable Temporary E-mail?</div>
+      <p>
+        <span>Disposable email</span> - is a free email service that allows to
+        receive email at a temporary address that self-destructed after a
+        certain time elapses. It is also known by names like : tempmail,
+        10minutemail, 10minmail, throwaway email, fake-mail , fake email
+        generator, burner mail or trash-mail. Many forums, Wi-Fi owners,
+        websites and blogs ask visitors to register before they can view
+        content, post comments or download something. Temp-Mail - is most
+        advanced throwaway email service that helps you avoid spam and stay
+        safe.
+      </p>
+    </div>
+    <div class="section-blog">
+      <div class="text-title">Popular Articles</div>
+      <!-- add swiper slider for blog -->
+      <swiper-container
+        class="mySwiper"
+        pagination="true"
+        pagination-dynamic-bullets="true"
+      >
+        <swiper-slide>
+          <p class="text-title-blog">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <p class="text-description-blog">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            dignissimos sint ipsum cumque fugit assumenda modi culpa. Illo
+            cupiditate ipsum aspernatur quibusdam, modi mollitia accusamus
+            tenetur nobis. Maiores, reprehenderit voluptates. Alias
+            necessitatibus debitis, accusantium cum ab nulla omnis iste maxime
+            nesciunt recusandae esse adipisci nihil numquam ut fugiat optio
+            expedita laborum eligendi autem non similique. Facilis quo harum
+            dolor obcaecati! Alias quos cumque accusantium perferendis id fugit
+            totam soluta, obcaecati expedita facilis laborum eaque, a laboriosam
+            provident fugiat voluptas mollitia ipsum explicabo reiciendis vitae?
+            Natus quis quasi officia quia voluptatem?
+          </p>
+        </swiper-slide>
+        <swiper-slide>
+          <p class="text-title-blog">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <p class="text-description-blog">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            dignissimos sint ipsum cumque fugit assumenda modi culpa. Illo
+            cupiditate ipsum aspernatur quibusdam, modi mollitia accusamus
+            tenetur nobis. Maiores, reprehenderit voluptates. Alias
+            necessitatibus debitis, accusantium cum ab nulla omnis iste maxime
+            nesciunt recusandae esse adipisci nihil numquam ut fugiat optio
+            expedita laborum eligendi autem non similique. Facilis quo harum
+            dolor obcaecati! Alias quos cumque accusantium perferendis id fugit
+            totam soluta, obcaecati expedita facilis laborum eaque, a laboriosam
+            provident fugiat voluptas mollitia ipsum explicabo reiciendis vitae?
+            Natus quis quasi officia quia voluptatem?
+          </p></swiper-slide
+        >
+        <swiper-slide>
+          <p class="text-title-blog">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <p class="text-description-blog">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            dignissimos sint ipsum cumque fugit assumenda modi culpa. Illo
+            cupiditate ipsum aspernatur quibusdam, modi mollitia accusamus
+            tenetur nobis. Maiores, reprehenderit voluptates. Alias
+            necessitatibus debitis, accusantium cum ab nulla omnis iste maxime
+            nesciunt recusandae esse adipisci nihil numquam ut fugiat optio
+            expedita laborum eligendi autem non similique. Facilis quo harum
+            dolor obcaecati! Alias quos cumque accusantium perferendis id fugit
+            totam soluta, obcaecati expedita facilis laborum eaque, a laboriosam
+            provident fugiat voluptas mollitia ipsum explicabo reiciendis vitae?
+            Natus quis quasi officia quia voluptatem?
+          </p></swiper-slide
+        >
+      </swiper-container>
+    </div>
+    <footer>
+      <div class="section-menu-footer">
+        <div class="section-menu-footer-nav">
+          <ul>
+            <li><a href="#">PREMIUM</a></li>
+            <li><a href="#" title="API">API</a></li>
+            <li>
+              <a href="#" title="Articles">Articles</a>
+            </li>
+            <li>
+              <a href="#" title="10 MINUTE MAIL">10 MINUTE MAIL</a>
+            </li>
+            <li>
+              <a href="#" title="Email Generator">Email Generator</a>
+            </li>
+            <li><a href="#" title="Privacy">Privacy</a></li>
+            <li><a href="#" title="Terms">Terms</a></li>
+            <li><a href="#" title="FAQ">FAQ</a></li>
+            <li><a href="#" title="Contacts">Contacts</a></li>
+            <li>
+              <a href="#" title="Advertising">Advertising</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="section-detailts-contact-us">
+        <div class="div-copyright">
+          <ul class="div-copyright-ul-list">
+            <li class="ul-list-items"><a href="#"> ReSIM eSIM</a></li>
+            |
+            <li class="ul-list-items"><a href="#"> 10MinuteMail</a></li>
+            |
+            <li class="ul-list-items">
+              <a href="#">Temp Number</a>
+            </li>
+          </ul>
+        </div>
+        <div class="div-social-media">
+          <div class="div-social-media-container">
+            <ul class="list-content-social-media">
+              <li class="list-content-social-media-item">
+                <img src="./images/itunes_header.svg" />
+                <span> App Store </span>
+              </li>
+              <li class="list-content-social-media-item">
+                <img src="./images/Google-Play-icon-logo.png" />
+                <span> Google Play </span>
+              </li>
+              <li class="list-content-social-media-item">
+                <img src="./images/amazon.svg" />
+              </li>
+              <li class="list-content-social-media-item">
+                <img src="./images/chrome.svg" />
+              </li>
+              <li class="list-content-social-media-item">
+                <img src="./images/Firefox_logo,_2019.png" />
+              </li>
+              <li class="list-content-social-media-item">
+                <img src="./images/slack.svg" />
+              </li>
+              <li class="list-content-social-media-item">
+                <img src="./images/telegram-icon-2048x2048-l6ni6sux.png" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="div-language">
+          <ul class="def-hide-element list-lang">
+            <li class="list-lang-item">
+              <img
+                src="./images/Flag_of_the_United_States_DoS_ECA_Color_Standard.svg"
+              />
+              <span>En</span>
+            </li>
+            <li class="list-lang-item">
+              <img src="./images/Flag_of_Iran.svg" />
+              <span>Fa</span>
+            </li>
+            <li class="list-lang-item">
+              <img src="./images/download.png" />
+              <span>Ja</span>
+            </li>
+          </ul>
+          <button class="selected-lang-btn">
+            <img
+              src="./images/Flag_of_the_United_States_DoS_ECA_Color_Standard.svg"
+              class="img-selected-lang"
+            />
+            <span>En</span>
+          </button>
+        </div>
+      </div>
+      <div>
+        <p class="developer-text">
+          developed by
+          <a href="https://github.com/sajjadnazaridev">Sajjad Nazari</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.lordicon.com/lordicon-1.2.0.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/script.js"></script>
+</html>
